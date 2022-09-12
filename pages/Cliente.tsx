@@ -29,7 +29,7 @@ export default class Cliente{
 
  function renderizar({ idade,nome_1,idade_}:Cliente){
     return(
- new Cliente ()  
+ idade=(1) 
     )
 }
 
