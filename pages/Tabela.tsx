@@ -1,8 +1,9 @@
-import Cliente from "./Cliente"
+import  Cliente from "./Cliente"
 interface Tabela{
-   Clientes:Cliente
+  Cliente :Cliente
 }
-export default  function  Tabela(Cliente: any){
+
+export default  function  Tabela(Cliente: any): JSX.Element{
    
    
 

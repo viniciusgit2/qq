@@ -1,43 +1,50 @@
 
-import React from "react";
+
+ 
+   
 export default class Cliente{
-  private _nome = String;   
-    public get nome_1() {
-        return this._nome;
+    #_idade!: Number;
+    #_id: String | undefined;
+    #_nome: String | undefined;
+    public get nome(): String | undefined {
+        return this.#_nome;
     }
-    public set nome_1(value) {
-        this._nome = value;
+    public set nome(value: String | undefined) {
+        this.#_nome = value;
     }
-    private _idade!: Number;
-    public get idade_(): Number {
-        return this._idade;
+    public get id(): String | undefined {
+        return this.#_id;
+    }
+    public set id(value: String | undefined) {
+        this.#_id = value;
+    }
+    public get idade(): Number {
+        return this.#_idade;
     }
     public set idade(value: Number) {
-        this._idade = value;
+        this.#_idade = value;
+        
     }
-    public get idade_1(): Number {
-        return this._idade;
-    }
-    public set idade_1(value: Number) {
-        this._idade = value;
-    }
-  
-    }
+  constructor(_nome: String,_idade: Number ,_id: Number ) {
+ this.nome
+  this.idade
+  this.id
+  }
+ 
+static retorno (): Cliente{
+    
 
-
-
-
- function renderizar({ idade,nome_1,idade_}:Cliente){
-    return(
- idade=(1) 
-    )
+    
+return new  Cliente ("10",9,0 )
+}
 }
 
 
 
+ 
 
-
-
+   
+    
     
 
 
